@@ -2,24 +2,26 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  border: solid;
   height: 90vh;
 }
 
 #navContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
   border: solid;
-  width: 30%;
-  /* position: absolute;
-    left: -100px;
-    width: 100px;
-    height: 100px;
-    background: blue;
-    transition: 1s; */
+}
+.hidden {
+  position: absolute;
+  right: -400px;
+  background: blue;
+  transition: 1s;
 }
 
 #pic {
-  border: solid;
-  width: 70%;
+  width: 80%;
 }
 
 #actualPic {
@@ -28,4 +30,8 @@
   padding: 10px;
   margin-top: 100px;
   height: 200px;
+  line-height: 2em;
+}
+
+.navButton {
 }

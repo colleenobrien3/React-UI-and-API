@@ -22,21 +22,21 @@ class Pic extends Component {
             id="actualPic"
             // styles={{ backgroundImage: `url("${this.state.character}")` }}
           >
+            Select a character from the navigation bar.
             <img src={this.state.character} />
-            Pic
           </div>
         </span>
-        <span id="navContainer">
-          <div id="0" onClick={this.changePic}>
+        <span id="navContainer" className="hidden">
+          <div id="0" className="navButton" onClick={this.changePic}>
             CharacterOne
           </div>
-          <div id="1" onClick={this.changePic}>
+          <div id="1" className="navButton" onClick={this.changePic}>
             CharacterTwo
           </div>
-          <div id="2" onClick={this.changePic}>
+          <div id="2" className="navButton" onClick={this.changePic}>
             CharacterThree
           </div>
-          <div id="3" onClick={this.changePic}>
+          <div id="3" className="navButton" onClick={this.changePic}>
             CharacterFour
           </div>
         </span>
