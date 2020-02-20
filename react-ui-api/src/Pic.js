@@ -12,6 +12,10 @@ class Pic extends Component {
   changePic = event => {
     this.setState({ character: this.props.info[event.target.id].image });
     console.log(this.state.character);
+    document
+      .querySelectorAll(".navButton")
+      .forEach(item => item.classList.remove("selected"));
+    event.target.classList.toggle("selected");
   };
 
   render() {

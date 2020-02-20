@@ -25,13 +25,23 @@
 }
 
 #actualPic {
-  border: solid;
   margin: 15%;
   padding: 10px;
   margin-top: 100px;
   height: 200px;
-  line-height: 2em;
+  line-height: 3em;
+  display: flex;
+  flex-direction: column;
 }
 
 .navButton {
+}
+
+.selected {
+  border: solid;
+}
+img {
+  height: 200px;
+  width: 50%;
+  margin: auto;
 }
