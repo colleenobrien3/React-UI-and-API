@@ -26,8 +26,10 @@ class Pic extends Component {
             id="actualPic"
             // styles={{ backgroundImage: `url("${this.state.character}")` }}
           >
-            Select a character from the navigation bar.
-            <img src={this.state.character} />
+            <img
+              src={this.state.character}
+              alt="Select a character from the navigation bar."
+            />
           </div>
         </span>
         <span id="navContainer" className="hidden">
