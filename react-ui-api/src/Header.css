@@ -1,0 +1,10 @@
+#header {
+    font-size: 2em;
+    text-align: left;
+    padding: 1em;
+    padding-left: 1.3em;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
